@@ -1,0 +1,48 @@
+.main{
+    background-image:url('./Nature.jpg');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50;
+    align-content: center;
+    color: darkgreen;
+    align-items: center;
+    border-radius: 5;
+    padding-bottom: 20px;
+}
+
+.inputs{
+background-color: burlywood;
+border-radius: 10px;
+padding-left: 10px;
+/* padding-right: 10px; */
+justify-content: space-between;
+/* display: flex; */
+/* flex-direction: column; */
+}
+
+.form-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control{
+
+    
+}
+
+.submitbtn{
+background-color: darkgreen;
+align-content: center;
+}
+
+input{
+    margin: 10px;
+    border: radius 20px;
+}
+input:focus{
+
+ 
+    outline: none;
+}

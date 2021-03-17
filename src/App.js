@@ -14,9 +14,10 @@
 // import Dashboardcomponent from './Components/propdrilling/Dashboardcomponent';
 // import Counter from './Components/state/counter'
 // import Home from './Components/pages/home';
- import Login from './Components/pages/login';
+//  import Login from './Components/pages/login';
 // import Form from './Components/form/form';
-// import Ashome from './Components/assignhome/ashome'
+//  import Ashome from './Components/assignhome/ashome'
+ import Signup from './Components/pages/signuphome/signup';
 
 
 function App() {
@@ -41,9 +42,10 @@ function App() {
       <Dashboardcomponent Firstname="Thelma" Lastname="Annoh" email="thelma@gmail.com" dateofbirth="7th June 2021" mobile="0242162672"/>
       <Counter/> */}
       {/* <Home /> */}
-       <Login/> 
+       {/* <Login/>  */}
       {/* <Form/> */}
-      {/* <Ashome/> */}
+     {/* <Ashome/> */}
+      <Signup/> 
     </div>
   );
 }

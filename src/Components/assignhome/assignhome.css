@@ -1,3 +1,6 @@
 body{
     background-color: cadetblue;
 }
+input:focus{
+    outline: none;
+    border-radius: 5px;}

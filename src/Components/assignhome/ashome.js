@@ -39,7 +39,7 @@ function Ashome(props) {
             </div>
 
 
-            <div style={{width:50,borderBlockColor:'red'}}>
+            <div>
             <div>
                 <Inputfield myinputtype='text' />
                 <span>Company Name</span>
