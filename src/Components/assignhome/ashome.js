@@ -40,17 +40,17 @@ function Ashome(props) {
 
 
             <div>
-            <div>
+            <div class='inputs'>
                 <Inputfield myinputtype='text' />
                 <span>Company Name</span>
             </div>
 
-            <div>
+            <div class='inputs'>
                 <Inputfield myinputtype='text' />
                 <span>Address</span>
             </div>
 
-            <div>
+            <div class='inputs'>
                 <Inputfield myinputtype='text' />
                 <span>Location</span>
             </div>
@@ -80,7 +80,7 @@ function Ashome(props) {
             </div>
 
 
-            <div>
+            <div class='inputs'>
                 <Inputfield myinputtype='radio' />
                 <span style={{margin:50}}>Limited Liability Company</span>
 
@@ -99,7 +99,7 @@ function Ashome(props) {
             <div style={{display:'flex', flexDirection:'column', margin:10}}>
                 <label>Indicate the kind of services you will require here below:</label>
                 <Textarea style={{width:50, innerHeight:150, margin:10}} />
-                <Buttons text='Submit'/>
+                
             </div>
 
             <div style={{ justifyContent:'center', alignContent:'center', backgroundColor:'black'}}>
@@ -108,13 +108,16 @@ function Ashome(props) {
 
                 </div>
 
-                <div>
+                <div class='inputs'>
                 <Selectoption firstoption='Annually' secondoption='Semi-Annually' thirdoption='Quarterly' finaloption='Monthly'  />
-
+             
                 </div>
+
+                
                 
                 
             </div>
+            <Buttons text='Submit'/>
 
 
            

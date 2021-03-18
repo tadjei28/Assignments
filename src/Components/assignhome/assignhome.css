@@ -1,6 +1,13 @@
 body{
     background-color: cadetblue;
 }
+.inputs{
+    margin-left: 10px;
+    /* background-color: blanchedalmond; */
+}
+
+
 input:focus{
     outline: none;
-    border-radius: 5px;}
+    border-radius: 5px;
+border: none;}

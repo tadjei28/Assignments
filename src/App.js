@@ -16,8 +16,8 @@
 // import Home from './Components/pages/home';
 //  import Login from './Components/pages/login';
 // import Form from './Components/form/form';
-//  import Ashome from './Components/assignhome/ashome'
- import Signup from './Components/pages/signuphome/signup';
+ import Ashome from './Components/assignhome/ashome'
+//  import Signup from './Components/pages/signuphome/signup';
 
 
 function App() {
@@ -44,8 +44,8 @@ function App() {
       {/* <Home /> */}
        {/* <Login/>  */}
       {/* <Form/> */}
-     {/* <Ashome/> */}
-      <Signup/> 
+      <Ashome/> 
+      {/* <Signup/>  */}
     </div>
   );
 }
