@@ -41,31 +41,56 @@ function Signup() {
 
 return(
     <form class="main">
+        
         <div class="inputs">
+            <div class="header">
+                <h2>Keith Consults</h2>
+                <h4>Create an Account</h4>
+            </div>
         <div class="form-group">
-           <label htmlFor="">Username</label>
-           <input type= "text" value={username} onChange={updateUsername} class="form-control"/>
+           <label htmlFor="">Username</label> 
+           <br></br>
+           <input type= "text" value={username} onChange={updateUsername} className="form-control" placeholder="Username"/>
 
         </div>
 
         <div class="form-group">
            <label htmlFor="">Email</label>
-           <input type= "text" value={email} onChange={updateEmail} class="form-control"/>
+           <br></br>
+           <input type= "text" value={email} onChange={updateEmail} className="form-control" placeholder="Email"/>
 
         </div >
         
         <div class="form-group">
         <label htmlFor="">Password</label>
-        <input type= "password" value={password} onChange={updatePassword} class="form-control"/>
+        <br></br>
+        <input type= "password" value={password} onChange={updatePassword} className="form-control" placeholder="Password"/>
 
         </div>
         
         <div class="form-group"> 
         <label htmlFor="">Confirm Password</label>
-        <input type= "password" value={confirmpassword} onChange={updateConfirm} class="form-control"/>  
+        <br></br>
+        <input type= "password" value={confirmpassword} onChange={updateConfirm} className="form-control" placeholder="Confirm Password"/>  
         </div>
 
         <button class="submitbtn">Submit</button>
+        <h6>Already have an Account? Log in</h6>
+
+        </div>
+
+        <div className="sidediv" style={{color:"white", font:"bold"}}>
+        <h1>Keith consults</h1>
+        <h3>We present you with your FIGURES and BEYOND.</h3>
+        <h4>Contact Us for all your Accounting and Bookkeeping needs</h4>
+        <ul>
+            <li>Taxes</li>
+            <li>Personal Account</li>
+            <li>Financial Statements</li>
+            <li>Bookkeeping</li>
+            <li>Payroll</li>
+            <li>Accounting Softwares</li>
+        </ul>
 
         </div>
             
